@@ -1,0 +1,338 @@
+@media (max-width : 1200px) {
+    .landing-two img{
+        height: 300px;
+    }
+
+    .landing-one h1{
+        font-size: 38px;
+        line-height: 1.3;
+        color: rgb(43, 39, 39);
+    }
+    
+    .landing-one h1 span{
+        font-size: 45px;
+        color:  
+    #f91942;
+        font-weight: 700;
+    }
+
+    .landing-con{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .landing-con a{
+        padding: 12px 24px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+
+    .abt-two{
+        flex-direction: column;
+    }
+
+    .abt-left{
+        width: 100%;
+        order: 2;
+    }
+
+    .abt-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abt-right img{
+        height: 550px;
+    }
+
+    
+
+}
+
+
+
+@media (max-width :1009px) {
+    #contact{
+        width: 20%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: end;
+    }
+    
+    #contact a{
+        font-size: 18px;
+        background-color:#f91942;
+        color: white;
+        padding: 1vw 2vw;
+        /* border-radius: 50px; */
+        font-weight: 700;
+    }
+
+    form{
+        width: 70%;
+    }
+}
+
+
+@media (max-width : 900px) {
+    #landing{
+        flex-direction: column;
+    }
+
+    .landing-one{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .landing-two{
+        width: 100%;
+        display: none;
+    }
+
+    .landing-one h1{    
+        font-size: 55px;
+        line-height: 1.3;
+        color: rgb(43, 39, 39);
+        text-align: center;
+    }
+    
+    .landing-one h1 span{
+        font-size: 58px;
+        color:  
+    #f91942;
+        font-weight: 700;
+    }
+    
+        .landing-con{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 50px;
+            text-align: center;
+        }
+    
+        .landing-con a{
+            padding: 16px 32px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    
+        .con{
+            background-color:  
+        #f91942;
+            color: white;
+            border: 1px solid  
+        #f91942;
+        }
+    
+        .ser{
+            border: 1px solid  
+        #f91942;
+            color:  
+        #f91942;
+            font-weight: 700;
+        }
+
+
+        .abt-left{
+            width: 100%;
+            order: 2;
+        }
+    
+        .abt-right{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2vh;
+        }
+    
+        .abt-right img{
+            height: 100%;
+        }
+
+        form{
+            width: 70%;
+        }
+
+}
+
+
+@media (max-width : 600px) {
+
+    #landing{
+        padding-top: 24vh;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        height: auto;
+    }
+    .landing-con{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .landing-con a{
+        font-size: 14px;
+        width: 70%;
+        padding: 8px 20px;
+    }
+
+    .landing-one h1{    
+        font-size: 32px;
+        line-height: 1.3;
+        color: rgb(43, 39, 39);
+    }
+    
+    .landing-one h1 span{
+        font-size: 35px;
+        color:  
+    #f91942;
+        font-weight: 700;
+    }
+
+    #about{
+        margin-top: 2vh;
+    }
+
+    .landing-con{
+        gap: 30px;
+    }
+}
+
+@media (max-width :400px) {
+    .abt-left a{
+        font-size: 18px;
+        padding: 12px 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card img{
+        height: 80px;
+    }
+}
+
+@media (max-width :373px) {
+    .card h3{
+        font-size: 20px;
+        nav-down: 700;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    .card a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 600px) {
+    .top h4{
+        font-size: 25px;
+    }
+
+    form{
+        width: 100%;
+        padding: 10vh 5vh;
+    }
+
+    .sub{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .section-head h4{
+        font-size: 25px;
+    }
+}
+
+@media (max-width : 500px) {
+    .abt-left h2{
+        font-size: 20px;
+    }
+
+    .abt-left p{
+        font-size: 16px;
+    }
+
+    .abt-left a{
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+}
+
+
+@media (max-width :315px) {
+    .card a{
+        font-size: 12px;
+        padding: 10px 40px;
+    }
+}
+
+
+@media (max-width :800px) {
+    
+
+    #logo{
+        height: 40px;
+    }
+
+    #contact{
+        display: none;
+    }
+}
+
+@media (max-width : 500px) {
+    .links a{
+        font-size: 14px;
+    }
+
+    #logo{
+        height: 30px;
+    }
+
+    nav{
+        padding: 0 4vw;
+    }
+}
+
+
+@media (max-width : 350px) {
+    .links a{
+        font-size: 12px;
+    }
+
+    #logo{
+        height: 25px;
+    }
+
+    nav{
+        padding: 0 4vw;
+    }
+
+}
+
+
+@media (max-width : 280px) {
+    .links a{
+        font-size: 12px;
+    }
+
+    #logo{
+        height: 20px;
+    }
+
+    nav{
+        padding: 0 2vw;
+    }
+
+
+}
